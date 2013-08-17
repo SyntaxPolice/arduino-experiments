@@ -7,7 +7,7 @@ import Data.List
 delimiterSuffix :: String
 delimiterSuffix = "\r\n"
 serialDev       :: String
-serialDev       = "/dev/ttyUSB0"
+serialDev       = "/dev/ttyUSB3"
 
 data Command = CmdFaster | CmdSlower | CmdFoo
 
